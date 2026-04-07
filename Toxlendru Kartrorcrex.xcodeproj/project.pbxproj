@@ -3,29 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		746A21352F8596CD0076A047 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21142F8596CD0076A047 /* AppConfiguration.swift */; };
+		746A21362F8596CD0076A047 /* CookieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21152F8596CD0076A047 /* CookieManager.swift */; };
+		746A21372F8596CD0076A047 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21162F8596CD0076A047 /* GameView.swift */; };
+		746A21382F8596CD0076A047 /* JSBridgeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21172F8596CD0076A047 /* JSBridgeHandler.swift */; };
+		746A21392F8596CD0076A047 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21182F8596CD0076A047 /* LoadingView.swift */; };
+		746A213A2F8596CD0076A047 /* NavigationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21192F8596CD0076A047 /* NavigationHandler.swift */; };
+		746A213B2F8596CD0076A047 /* RootFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A211A2F8596CD0076A047 /* RootFlowView.swift */; };
+		746A213C2F8596CD0076A047 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A211B2F8596CD0076A047 /* SplashView.swift */; };
+		746A213D2F8596CD0076A047 /* WebContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A211C2F8596CD0076A047 /* WebContainerView.swift */; };
+		746A213E2F8596CD0076A047 /* WebCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A211D2F8596CD0076A047 /* WebCoordinator.swift */; };
+		746A213F2F8596CD0076A047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A211F2F8596CD0076A047 /* AppDelegate.swift */; };
+		746A21402F8596CD0076A047 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21202F8596CD0076A047 /* AppStorage.swift */; };
+		746A21412F8596CD0076A047 /* AstroBounceGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21222F8596CD0076A047 /* AstroBounceGame.swift */; };
+		746A21422F8596CD0076A047 /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21232F8596CD0076A047 /* Color+App.swift */; };
+		746A21432F8596CD0076A047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21242F8596CD0076A047 /* ContentView.swift */; };
+		746A21442F8596CD0076A047 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21252F8596CD0076A047 /* HomeView.swift */; };
+		746A21452F8596CD0076A047 /* MainTabShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A212B2F8596CD0076A047 /* MainTabShellView.swift */; };
+		746A21462F8596CD0076A047 /* OnboardingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A212C2F8596CD0076A047 /* OnboardingViews.swift */; };
+		746A21472F8596CD0076A047 /* PlayAndLevelsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A212D2F8596CD0076A047 /* PlayAndLevelsViews.swift */; };
+		746A21482F8596CD0076A047 /* PuzzlePathGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A212E2F8596CD0076A047 /* PuzzlePathGame.swift */; };
+		746A21492F8596CD0076A047 /* ResultAndAchievementsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A212F2F8596CD0076A047 /* ResultAndAchievementsViews.swift */; };
+		746A214A2F8596CD0076A047 /* RhythmRunGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21302F8596CD0076A047 /* RhythmRunGame.swift */; };
+		746A214B2F8596CD0076A047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21312F8596CD0076A047 /* SceneDelegate.swift */; };
+		746A214C2F8596CD0076A047 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21322F8596CD0076A047 /* SettingsView.swift */; };
+		746A214D2F8596CD0076A047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A21332F8596CD0076A047 /* ViewController.swift */; };
+		746A214E2F8596CD0076A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746A21212F8596CD0076A047 /* Assets.xcassets */; };
+		746A21502F8596CD0076A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A21282F8596CD0076A047 /* LaunchScreen.storyboard */; };
+		746A21512F8596CD0076A047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A212A2F8596CD0076A047 /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36311E2A602205E260EF85DB /* Pods_Toxlendru_Kartrorcrex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Toxlendru_Kartrorcrex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43445603B3B1F2F16471861D /* Pods-Toxlendru Kartrorcrex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toxlendru Kartrorcrex.release.xcconfig"; path = "Target Support Files/Pods-Toxlendru Kartrorcrex/Pods-Toxlendru Kartrorcrex.release.xcconfig"; sourceTree = "<group>"; };
+		746A21142F8596CD0076A047 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		746A21152F8596CD0076A047 /* CookieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieManager.swift; sourceTree = "<group>"; };
+		746A21162F8596CD0076A047 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		746A21172F8596CD0076A047 /* JSBridgeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSBridgeHandler.swift; sourceTree = "<group>"; };
+		746A21182F8596CD0076A047 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		746A21192F8596CD0076A047 /* NavigationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHandler.swift; sourceTree = "<group>"; };
+		746A211A2F8596CD0076A047 /* RootFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFlowView.swift; sourceTree = "<group>"; };
+		746A211B2F8596CD0076A047 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		746A211C2F8596CD0076A047 /* WebContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContainerView.swift; sourceTree = "<group>"; };
+		746A211D2F8596CD0076A047 /* WebCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCoordinator.swift; sourceTree = "<group>"; };
+		746A211F2F8596CD0076A047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		746A21202F8596CD0076A047 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		746A21212F8596CD0076A047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746A21222F8596CD0076A047 /* AstroBounceGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroBounceGame.swift; sourceTree = "<group>"; };
+		746A21232F8596CD0076A047 /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
+		746A21242F8596CD0076A047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		746A21252F8596CD0076A047 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		746A21262F8596CD0076A047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746A21272F8596CD0076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746A21292F8596CD0076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746A212B2F8596CD0076A047 /* MainTabShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabShellView.swift; sourceTree = "<group>"; };
+		746A212C2F8596CD0076A047 /* OnboardingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViews.swift; sourceTree = "<group>"; };
+		746A212D2F8596CD0076A047 /* PlayAndLevelsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAndLevelsViews.swift; sourceTree = "<group>"; };
+		746A212E2F8596CD0076A047 /* PuzzlePathGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzlePathGame.swift; sourceTree = "<group>"; };
+		746A212F2F8596CD0076A047 /* ResultAndAchievementsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultAndAchievementsViews.swift; sourceTree = "<group>"; };
+		746A21302F8596CD0076A047 /* RhythmRunGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmRunGame.swift; sourceTree = "<group>"; };
+		746A21312F8596CD0076A047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		746A21322F8596CD0076A047 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		746A21332F8596CD0076A047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74C4EE3E2F60615800B53EB5 /* Toxlendru Kartrorcrex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toxlendru Kartrorcrex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEE7991EC5497E6BE58DB0C /* Pods-Toxlendru Kartrorcrex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toxlendru Kartrorcrex.debug.xcconfig"; path = "Target Support Files/Pods-Toxlendru Kartrorcrex/Pods-Toxlendru Kartrorcrex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		746C13A82F69D02200F44B30 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 74C4EE3D2F60615800B53EB5 /* Toxlendru Kartrorcrex */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		746C13942F69D02200F44B30 /* Toxlendru Kartrorcrex */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (746C13A82F69D02200F44B30 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Toxlendru Kartrorcrex"; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		74C4EE3B2F60615800B53EB5 /* Frameworks */ = {
@@ -47,10 +93,54 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		746A211E2F8596CD0076A047 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				746A21142F8596CD0076A047 /* AppConfiguration.swift */,
+				746A21152F8596CD0076A047 /* CookieManager.swift */,
+				746A21162F8596CD0076A047 /* GameView.swift */,
+				746A21172F8596CD0076A047 /* JSBridgeHandler.swift */,
+				746A21182F8596CD0076A047 /* LoadingView.swift */,
+				746A21192F8596CD0076A047 /* NavigationHandler.swift */,
+				746A211A2F8596CD0076A047 /* RootFlowView.swift */,
+				746A211B2F8596CD0076A047 /* SplashView.swift */,
+				746A211C2F8596CD0076A047 /* WebContainerView.swift */,
+				746A211D2F8596CD0076A047 /* WebCoordinator.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		746A21342F8596CD0076A047 /* Toxlendru Kartrorcrex */ = {
+			isa = PBXGroup;
+			children = (
+				746A211E2F8596CD0076A047 /* Loading */,
+				746A211F2F8596CD0076A047 /* AppDelegate.swift */,
+				746A21202F8596CD0076A047 /* AppStorage.swift */,
+				746A21212F8596CD0076A047 /* Assets.xcassets */,
+				746A21222F8596CD0076A047 /* AstroBounceGame.swift */,
+				746A21232F8596CD0076A047 /* Color+App.swift */,
+				746A21242F8596CD0076A047 /* ContentView.swift */,
+				746A21252F8596CD0076A047 /* HomeView.swift */,
+				746A21262F8596CD0076A047 /* Info.plist */,
+				746A21282F8596CD0076A047 /* LaunchScreen.storyboard */,
+				746A212A2F8596CD0076A047 /* Main.storyboard */,
+				746A212B2F8596CD0076A047 /* MainTabShellView.swift */,
+				746A212C2F8596CD0076A047 /* OnboardingViews.swift */,
+				746A212D2F8596CD0076A047 /* PlayAndLevelsViews.swift */,
+				746A212E2F8596CD0076A047 /* PuzzlePathGame.swift */,
+				746A212F2F8596CD0076A047 /* ResultAndAchievementsViews.swift */,
+				746A21302F8596CD0076A047 /* RhythmRunGame.swift */,
+				746A21312F8596CD0076A047 /* SceneDelegate.swift */,
+				746A21322F8596CD0076A047 /* SettingsView.swift */,
+				746A21332F8596CD0076A047 /* ViewController.swift */,
+			);
+			path = "Toxlendru Kartrorcrex";
+			sourceTree = "<group>";
+		};
 		74C4EE352F60615800B53EB5 = {
 			isa = PBXGroup;
 			children = (
-				746C13942F69D02200F44B30 /* Toxlendru Kartrorcrex */,
+				746A21342F8596CD0076A047 /* Toxlendru Kartrorcrex */,
 				74C4EE3F2F60615800B53EB5 /* Products */,
 				51CFDE336DEF4FC6A2BAE5A2 /* Pods */,
 				B90172D948FA9B81BEBDEB64 /* Frameworks */,
@@ -88,9 +178,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				746C13942F69D02200F44B30 /* Toxlendru Kartrorcrex */,
 			);
 			name = "Toxlendru Kartrorcrex";
 			productName = "Toxlendru Kartrorcrex";
@@ -137,6 +224,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746A214E2F8596CD0076A047 /* Assets.xcassets in Resources */,
+				746A21502F8596CD0076A047 /* LaunchScreen.storyboard in Resources */,
+				746A21512F8596CD0076A047 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,10 +262,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746A21352F8596CD0076A047 /* AppConfiguration.swift in Sources */,
+				746A21362F8596CD0076A047 /* CookieManager.swift in Sources */,
+				746A21372F8596CD0076A047 /* GameView.swift in Sources */,
+				746A21382F8596CD0076A047 /* JSBridgeHandler.swift in Sources */,
+				746A21392F8596CD0076A047 /* LoadingView.swift in Sources */,
+				746A213A2F8596CD0076A047 /* NavigationHandler.swift in Sources */,
+				746A213B2F8596CD0076A047 /* RootFlowView.swift in Sources */,
+				746A213C2F8596CD0076A047 /* SplashView.swift in Sources */,
+				746A213D2F8596CD0076A047 /* WebContainerView.swift in Sources */,
+				746A213E2F8596CD0076A047 /* WebCoordinator.swift in Sources */,
+				746A213F2F8596CD0076A047 /* AppDelegate.swift in Sources */,
+				746A21402F8596CD0076A047 /* AppStorage.swift in Sources */,
+				746A21412F8596CD0076A047 /* AstroBounceGame.swift in Sources */,
+				746A21422F8596CD0076A047 /* Color+App.swift in Sources */,
+				746A21432F8596CD0076A047 /* ContentView.swift in Sources */,
+				746A21442F8596CD0076A047 /* HomeView.swift in Sources */,
+				746A21452F8596CD0076A047 /* MainTabShellView.swift in Sources */,
+				746A21462F8596CD0076A047 /* OnboardingViews.swift in Sources */,
+				746A21472F8596CD0076A047 /* PlayAndLevelsViews.swift in Sources */,
+				746A21482F8596CD0076A047 /* PuzzlePathGame.swift in Sources */,
+				746A21492F8596CD0076A047 /* ResultAndAchievementsViews.swift in Sources */,
+				746A214A2F8596CD0076A047 /* RhythmRunGame.swift in Sources */,
+				746A214B2F8596CD0076A047 /* SceneDelegate.swift in Sources */,
+				746A214C2F8596CD0076A047 /* SettingsView.swift in Sources */,
+				746A214D2F8596CD0076A047 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		746A21282F8596CD0076A047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746A21272F8596CD0076A047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		746A212A2F8596CD0076A047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746A21292F8596CD0076A047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		74C4EE522F60615900B53EB5 /* Debug */ = {
