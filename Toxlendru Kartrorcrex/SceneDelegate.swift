@@ -11,23 +11,16 @@ import SwiftUI
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-    private let appStorageManager = AppStorageManager.shared
-
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
-
-        let rootView = ContentView()
-            .environmentObject(appStorageManager)
-            .preferredColorScheme(.dark)
-
-        let hostingController = UIHostingController(rootView: rootView)
-
+        guard let windowScene = (scene as? UIWindowScene) else {return}
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = hostingController
-        window?.overrideUserInterfaceStyle = .dark
+        window?.rootViewController = UIHostingController(rootView: RootFlowView())
         window?.makeKeyAndVisible()
     }
+
+   
+   
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

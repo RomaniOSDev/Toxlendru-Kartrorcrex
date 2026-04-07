@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject private var storage: AppStorageManager
+    @StateObject private var storage = AppStorageManager.shared
 
     var body: some View {
         ZStack {
@@ -21,10 +21,10 @@ struct ContentView: View {
                 OnboardingFlowView()
             }
         }
+        .environmentObject(storage)
     }
 }
 
 #Preview {
     ContentView()
-        .environmentObject(AppStorageManager.shared)
 }
