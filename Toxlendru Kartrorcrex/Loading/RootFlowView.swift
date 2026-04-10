@@ -5,8 +5,10 @@ struct RootFlowView: View {
 
     var body: some View {
         ZStack {
-            WebContainerView()
+            Color.black
                 .ignoresSafeArea()
+
+            WebContainerView()
 
             if coordinator.appState == .idle {
                 SplashView()

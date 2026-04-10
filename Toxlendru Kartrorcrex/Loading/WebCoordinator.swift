@@ -24,6 +24,7 @@ final class WebCoordinator: NSObject, ObservableObject {
         webView = WKWebView(frame: .zero, configuration: config)
         webView.allowsBackForwardNavigationGestures = true
         webView.scrollView.bounces = true
+        webView.scrollView.contentInsetAdjustmentBehavior = .automatic
 
         super.init()
 
