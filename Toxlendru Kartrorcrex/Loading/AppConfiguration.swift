@@ -8,7 +8,7 @@ enum AppState: Equatable {
 }
 
 enum AppConfiguration {
-    static let host = "kttest.site"
+    static let host = "keitaroapps.online"
     static let loadTimeout: Duration = .seconds(25)
     static let jsHandlerName = "jsHandler"
 
