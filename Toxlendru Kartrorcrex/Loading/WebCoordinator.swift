@@ -1,6 +1,7 @@
 import SwiftUI
 import WebKit
 import Combine
+import AppTrackingTransparency
 
 @MainActor
 final class WebCoordinator: NSObject, ObservableObject {
@@ -71,6 +72,9 @@ final class WebCoordinator: NSObject, ObservableObject {
             appState = .showGame
             return
         }
+        await requestTrackingAuthorizationIfNeeded()
+        guard epoch == currentEpoch else { return }
+
         webView.load(URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData))
 
         loadingTask?.cancel()
@@ -106,6 +110,17 @@ final class WebCoordinator: NSObject, ObservableObject {
     }
 
     // MARK: - Private
+
+    private func requestTrackingAuthorizationIfNeeded() async {
+        guard #available(iOS 14, *) else { return }
+        guard ATTrackingManager.trackingAuthorizationStatus == .notDetermined else { return }
+
+        await withCheckedContinuation { (continuation: CheckedContinuation<Void, Never>) in
+            ATTrackingManager.requestTrackingAuthorization { _ in
+                continuation.resume()
+            }
+        }
+    }
 
     private func buildStartURL() -> URL? {
         var components = URLComponents(string: "https://\(AppConfiguration.host)/start/")
